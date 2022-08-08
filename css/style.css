@@ -23,7 +23,7 @@ h1 {
 
 header {
   background-color: #d7ccc8;
-  height: 700px;
+  height: 600px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
 }
 .container {
@@ -96,7 +96,7 @@ header nav .branding {
 }
 /* 3 part */
 section {
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 section.About .photo {
   width: 400px;
@@ -249,13 +249,27 @@ section.freeluncer p {
 .site-main-wrraper {
   position: relative;
 }
+@media (max-width: 1024px) {
+  .flex {
+    margin-top: 2rem;
+  }
+}
+/* tab section */
+@media (max-width: 1020px) {
+  .flex {
+    margin-top: 2rem;
+  }
+}
 @media (max-width: 768px) {
   .humberger {
     display: block;
   }
+  .flex {
+    margin-top: -2rem;
+  }
 
   #home img {
-    margin-top: 6rem;
+    margin-top: 2rem;
     padding-bottom: 2rem;
   }
   #home .right {
@@ -263,7 +277,7 @@ section.freeluncer p {
   }
   header {
     height: 600px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 92%, 0 100%);
   }
 }
 
@@ -271,6 +285,15 @@ section.freeluncer p {
 @media (max-width: 425px) {
   .humberger {
     left: 40rem;
+  }
+  .flex {
+    margin-top: 2rem;
+  }
+  #home .right {
+    margin-top: 0rem;
+  }
+  #home img {
+    margin-top: 0rem;
   }
   header {
     height: 600px;
