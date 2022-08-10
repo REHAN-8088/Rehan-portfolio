@@ -79,8 +79,9 @@ header nav .branding {
 }
 .hero .right h3 {
   font-size: 2rem;
-  color: #13c5c5;
+  color: #16f7f7;
   margin-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .hero .right h2 {
   font-size: 3rem;
